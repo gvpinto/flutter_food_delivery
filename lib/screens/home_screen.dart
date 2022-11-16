@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_food_delivery/data/data.dart';
+import 'package:flutter_food_delivery/screens/widgets/search.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -30,6 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
+      body: Search(),
     );
   }
 }
